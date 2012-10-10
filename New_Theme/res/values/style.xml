@@ -9,6 +9,8 @@
 	    <item name="android:buttonStyleSmall">@style/SmallButton</item>
 	    <item name="android:radioButtonStyle">@style/RadioButton</item>
 		<item name="android:progressBarStyle">@style/ProgressBar</item>
+		<item name="android:imageButtonStyle">@style/ImageButton</item>
+		<item name="android:seekBarStyle">@style/ SeekBar</item>
 	</style>
 	
 	<style name="Button" parent="android:style/Widget.Button">
@@ -49,4 +51,13 @@
 	     <item name="android:indeterminateDrawable">@drawable/progress_medium_white</item>
 	</style>
 	
+	<style name="ImageButton" parent="android:Widget.ImageButton">
+	    <item name="android:background">@drawable/imagebutton_start</item>
+	</style>
+	
+	<style name=" SeekBar"  parent="android:Widget.SeekBar" >
+	    <item name="android:minHeight">7dip</item>
+        <item name="android:maxHeight">7dip</item>
+	    <item name="android:thumb">@drawable/seek_thumb</item>
+	</style>
 </resources>
